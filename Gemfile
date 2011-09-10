@@ -13,6 +13,10 @@ group :test, :development do
   gem 'cucumber-rails'
   gem 'cucumber'
 end
+
+group :development do
+  gem 'heroku'
+end
 # Use unicorn as the web server
 # gem 'unicorn'
 
