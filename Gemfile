@@ -4,9 +4,15 @@ gem 'rails', '3.0.10'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem 'database_cleaner'
 gem 'sqlite3'
 
+group :test, :development do
+  gem "rspec-rails", "~> 2.4"
+  gem 'capybara'
+  gem 'cucumber-rails'
+  gem 'cucumber'
+end
 # Use unicorn as the web server
 # gem 'unicorn'
 
