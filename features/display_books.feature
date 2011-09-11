@@ -6,3 +6,4 @@ Feature: Display list of Books in the Library
 Scenario: View the list of books being offered by the library
   Given I am on the Biblioteca home page
   When I choose "Display the list of Books"
+  Then I should see "List of Books offered by the Library"
