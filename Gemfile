@@ -7,7 +7,7 @@ gem 'rails', '3.0.10'
 gem 'database_cleaner'
 gem 'sqlite3'
 gem 'haml-rails'
-
+gem 'jammit'
 group :test, :development do
   gem "rspec-rails", "~> 2.4"
   gem 'capybara'
