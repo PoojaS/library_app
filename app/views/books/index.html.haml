@@ -1,1 +1,24 @@
-%h2
+%h3 List of Books offered by the Library
+
+%ul
+  %li
+    %table.table-margin
+      %tr
+        %th
+          Book Id
+        %th
+          Book
+        %th
+          Author
+        %th
+          Avialable copies
+      -@books.each do |book|
+        %tr.table-spacing
+          %td
+            =book.id
+          %td
+            =book.title
+          %td
+            =book.author
+          %td
+            =book.no_of_copies_available
